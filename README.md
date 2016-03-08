@@ -41,7 +41,7 @@ Contains the test cases.
 - test case 1
 type: int  
 feature: 0,INT_MAX,INT_MIN,0,INT_MAX,INT_MIN,0,.....  
-queries: 
+queries:   
 target = 0  
 0 <= target < 0  
 target < 0  
@@ -54,7 +54,7 @@ INT_MIN < target < INT_MAX
 
 - test case 2
 type: float  
-feature:  -22.22,-22.22,..., 0.1555,0.1555,...,111.1555,111.1555...
+feature:  -22.22,-22.22,..., 0.1555,0.1555,...,111.1555,111.1555...  
 queries:  
 111.1555 <= target  
 111.1554 <= target  
